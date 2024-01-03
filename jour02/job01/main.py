@@ -21,13 +21,13 @@ class Rectangle:
         else:
             print("Erreur: la largeur doit être supérieure ou égale à 0.")
 
-# Création d'un rectangle
+
 rectangle = Rectangle(10, 5)
 
-# Modification des attributs
+
 rectangle.setLongueur(12)
 rectangle.setLargeur(6)
 
-# Vérification des modifications
+
 print("Longueur:", rectangle.getLongueur())
 print("Largeur:", rectangle.getLargeur())
